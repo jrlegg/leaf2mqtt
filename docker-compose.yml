@@ -4,7 +4,7 @@ services:
   leaf2mqtt:
     container_name: leaf2mqtt
     build: .
-    image: leaf2mqtt
+    image: jrlegg/leaf2mqtt
     logging:
       options:
         max-size: "1M"
@@ -12,5 +12,3 @@ services:
     env_file:
       - local_settings.env
     restart: unless-stopped
-
-
