@@ -13,3 +13,4 @@ services:
       - local_settings.env
     restart: unless-stopped
 
+
