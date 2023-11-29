@@ -4,7 +4,7 @@ services:
   leaf2mqtt:
     container_name: leaf2mqtt
     build: .
-    image: jrlegg/leaf2mqtt
+    image: leaf2mqtt
     logging:
       options:
         max-size: "1M"
